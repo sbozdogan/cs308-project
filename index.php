@@ -33,8 +33,8 @@ if(isset($_SESSION["uid"])){
 			</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span> Product</a></li>
 			</ul>
 			<form class="navbar-form navbar-left">
 		        <div class="form-group">
@@ -43,7 +43,9 @@ if(isset($_SESSION["uid"])){
 		        <button type="submit" class="btn btn-primary" id="search_btn"><span class="glyphicon glyphicon-search"></span></button>
 		     </form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>Cart<span class="badge">0</span></a>
+				<li><a href="customer_registration.php?register=1"><span class="glyphicon glyphicon glyphicon-leaf"></span> Register</a></li>
+			
+				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <span class="badge">0</span></a>
 					<div class="dropdown-menu" style="width:400px;">
 						<div class="panel panel-success">
 							<div class="panel-heading">
@@ -68,7 +70,7 @@ if(isset($_SESSION["uid"])){
 						</div>
 					</div>
 				</li>
-				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>SignIn</a>
+				<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sign In</a>
 					<ul class="dropdown-menu">
 						<div style="width:300px;">
 							<div class="panel panel-primary">
